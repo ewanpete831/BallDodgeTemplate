@@ -40,7 +40,7 @@
             this.titleLabel.AutoSize = true;
             this.titleLabel.Font = new System.Drawing.Font("Consolas", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titleLabel.ForeColor = System.Drawing.Color.Red;
-            this.titleLabel.Location = new System.Drawing.Point(197, 29);
+            this.titleLabel.Location = new System.Drawing.Point(205, 21);
             this.titleLabel.Name = "titleLabel";
             this.titleLabel.Size = new System.Drawing.Size(197, 37);
             this.titleLabel.TabIndex = 7;
@@ -51,7 +51,7 @@
             this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exitButton.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exitButton.ForeColor = System.Drawing.Color.Black;
-            this.exitButton.Location = new System.Drawing.Point(464, 417);
+            this.exitButton.Location = new System.Drawing.Point(468, 516);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(115, 57);
             this.exitButton.TabIndex = 3;
@@ -64,7 +64,7 @@
             this.easyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.easyButton.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.easyButton.ForeColor = System.Drawing.Color.Black;
-            this.easyButton.Location = new System.Drawing.Point(238, 122);
+            this.easyButton.Location = new System.Drawing.Point(240, 102);
             this.easyButton.Name = "easyButton";
             this.easyButton.Size = new System.Drawing.Size(115, 57);
             this.easyButton.TabIndex = 0;
@@ -77,7 +77,7 @@
             this.hardButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.hardButton.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hardButton.ForeColor = System.Drawing.Color.Black;
-            this.hardButton.Location = new System.Drawing.Point(238, 267);
+            this.hardButton.Location = new System.Drawing.Point(240, 300);
             this.hardButton.Name = "hardButton";
             this.hardButton.Size = new System.Drawing.Size(115, 57);
             this.hardButton.TabIndex = 2;
@@ -90,7 +90,7 @@
             this.mediumButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.mediumButton.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mediumButton.ForeColor = System.Drawing.Color.Black;
-            this.mediumButton.Location = new System.Drawing.Point(238, 194);
+            this.mediumButton.Location = new System.Drawing.Point(240, 197);
             this.mediumButton.Name = "mediumButton";
             this.mediumButton.Size = new System.Drawing.Size(115, 57);
             this.mediumButton.TabIndex = 1;
@@ -109,7 +109,7 @@
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.easyButton);
             this.Name = "MenuScreen";
-            this.Size = new System.Drawing.Size(600, 500);
+            this.Size = new System.Drawing.Size(600, 600);
             this.ResumeLayout(false);
             this.PerformLayout();
 

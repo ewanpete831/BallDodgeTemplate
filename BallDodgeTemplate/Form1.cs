@@ -12,6 +12,8 @@ namespace BallDodgeTemplate
 {
     public partial class Form1 : Form
     {
+        public static int difficulty;
+
         public Form1()
         {
             InitializeComponent();
