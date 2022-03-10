@@ -7,17 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace BallDodgeTemplate
 {
     public partial class Form1 : Form
     {
-        public static int difficulty;
+        public static int difficulty, powerupTimer;
+        SoundPlayer squidPlayer = new SoundPlayer(Properties.Resources.BGSound);
 
         public Form1()
         {
             InitializeComponent();
-
+            squidPlayer.Play();
             //open menu screen when the program starts
             ChangeScreen(this, new MenuScreen());
         }

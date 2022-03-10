@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Drawing;
 
 namespace BallDodgeTemplate
 {
@@ -21,21 +23,42 @@ namespace BallDodgeTemplate
             ySpeed = _ySpeed;
         } 
             
-        public void Move(string direction)
+        public void Move(string direction, Size ss)
         {
            switch(direction)
             {
                 case "up":
-                    y -= ySpeed;
+                        y -= ySpeed;
+
+                    if(y < 0)
+                    {
+                        y = 0;
+                    }
+
                     break;
                 case "left":
-                    x -= xSpeed;
+                        x -= xSpeed;
+
+                    if(x < 0)
+                    {
+                        x = 0;
+                    }
                     break;
                 case "down":
-                    y += ySpeed;
+                        y += ySpeed;   
+
+                    if(y > ss.Height - height)
+                    {
+                        y = ss.Height - height;
+                    }    
                     break;
                 case "right":
-                    x += xSpeed;
+                        x += xSpeed;
+
+                    if(x > ss.Width - width)
+                    {
+                        x = ss.Width - width;
+                    }
                     break;
             }
         }
